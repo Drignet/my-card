@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #222;
+}
+
+.wrapper{
+    display: grid;
+    width: 80vw;
+    grid-template-columns: 1fr;
+    margin: 2em auto;
+    background-color: rgb(0, 0, 0, 0.7);
+    justify-content: center;
+    border-radius: 1em;
+}
+
+.photo img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.header{
+    text-align: center;
+    line-height: 2em;
+}
+
+.header h1{
+    color: #fff;
+}
+
+.header h3{
+    color: rgb(173, 169, 169);
+}
+
+.header small{
+    color: #ccc;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 0.5em;
+}
+
+.buttons button{
+    width: 6.2em;
+    height: 2.2em;
+    border-radius: 0.4em;
+    font-size: 1.2rem;
+    border-color: #fff;
+    margin-bottom: 2em;
+}
+
+.buttons .linkedin{
+    background-color: rgb(6, 158, 182);
+    color: #fff;
+}
+
+.main{
+    padding: 0 2em;
+    color: #fff;
+}
+
+.main > .about, .interests{
+    padding: 1em 0;
+}
+
+.main h4{
+    font-size: 1.6rem;
+    line-height: 1.6em;
+}
+
+.main p{
+    font-size: 1.2rem;
+    line-height: 1.3em;
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.footer{
+    background-color: #000;
+}
+
+.footer .footIcons{
+    display: flex;
+    justify-content: center;
+    gap: 1.4em;
+    padding: 1.4em 0;
+}
+
+.footIcons img{
+    background-color: #ccc;
+    padding: 0.4em 0;
+}
